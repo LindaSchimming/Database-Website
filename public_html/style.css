@@ -1,0 +1,104 @@
+/* Navigation bar*/
+ul {
+	list-style-type: none; /*removes bullet points*/
+	margin: 0;
+	padding: 0;
+	width: 20%;
+	background-color: LightBlue;
+	position: fixed;
+	height: 100%;
+	overflow: auto;
+	border: 1px solid Black;
+}
+
+li a {
+	display: block; /* makes the link area clickable and allows you to specify the size of the block*/
+	color: Black;
+	/*width: 150px;*/
+	padding: 8px 16px;
+	text-decoration: none;
+}
+
+li {
+	text-align: center;
+	border-bottom: 1px solid Black;
+	
+}
+
+li a:hover:not(.active){
+	background-color: SteelBlue;
+	color: White;
+	
+}
+
+li a.active {
+	background-color: Gray;
+	color: White;
+	border: 1px solid Gray;
+}
+
+li: last-child{
+	border-bottom: none;
+}
+/* end navigation bar*/
+body {
+	margin: 0;
+	background-color: Linen;
+}
+
+.page{
+	height: 100%;
+	background-color: Linen;
+	
+}
+
+.pageContent {
+	margin-left: 20%;
+	padding: 1px 16px;
+	height: auto;
+	background-color: Linen;
+
+}
+
+.pageDiv{
+	border: 4px solid LightSeaGreen;
+	background-color: LightGray;
+	padding: 20px;
+	text-align:center;
+	height: auto;
+	
+	
+}
+#userHelp {
+
+	text-align: left;
+
+}
+
+#headings{
+	border: 7px solid Black;
+	background-color: LightSteelBlue;
+	
+}
+
+h2{
+	text-align: center;
+}
+
+table {
+	border-spacing: 10px;
+}
+
+td {
+	font-size: 20px;
+	text-align: center;
+}
+
+th {
+	font-size: 20px;
+}
+
+	
+
+
+
