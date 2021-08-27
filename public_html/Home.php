@@ -45,7 +45,7 @@
 echo '<div class = "pageContent"> ';
     session_start();
 
-    $link=mysqli_connect("localhost", "ls117542", "oo0dij0eezu9aiL3hiR6ahth6aeJaf", "ls117542")
+    $link=mysqli_connect("localhost", "ls117542", "", "ls117542")
     or die('Could not connect ');
   
    
