@@ -11,7 +11,7 @@
     header('Location: index.php');
     }
 
-  $link=mysqli_connect("localhost", "ls117542", "oo0dij0eezu9aiL3hiR6ahth6aeJaf", "ls117542")
+  $link=mysqli_connect("localhost", "ls117542", "", "ls117542")
      or die('Could not connect ');
 
   $userid = $_SESSION['userid'];
@@ -63,7 +63,7 @@
 				<h3>Choose a List:</h3>
 				<select name="listchoose" required>
 				<?php
-					 $link=mysqli_connect("localhost", "ls117542", "oo0dij0eezu9aiL3hiR6ahth6aeJaf", "ls117542")
+					 $link=mysqli_connect("localhost", "ls117542", "", "ls117542")
 						 or die('Could not connect ');
 					$userid = $_SESSION['userid'];
 					$query = "Select ListID,listName From List where userID = $userid";
@@ -109,7 +109,7 @@
 
 <?php
 
-  $link=mysqli_connect("localhost", "ls117542", "oo0dij0eezu9aiL3hiR6ahth6aeJaf", "ls117542")
+  $link=mysqli_connect("localhost", "ls117542", "", "ls117542")
      or die('Could not connect ');
 
   // create short variable names
